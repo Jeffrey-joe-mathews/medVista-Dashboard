@@ -24,7 +24,7 @@ const AnalyticsPage = () => {
 					<ProductPerformance />
 					<UserRetention />
 					<CustomerSegmentation /> */}
-					<SalesChannelChart />
+					{/* <SalesChannelChart /> */}
 
 				</div>
 

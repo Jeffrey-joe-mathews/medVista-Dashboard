@@ -6,6 +6,7 @@ import StatCard from "../components/common/StatCard";
 import SalesOverviewChart from "../components/overview/SalesOverviewChart";
 import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
 import SalesChannelChart from "../components/overview/SalesChannelChart";
+import UserDemographicsChart from "../components/users/UserDemographicsChart";
 
 const OverviewPage = () => {
 	return (
@@ -31,7 +32,12 @@ const OverviewPage = () => {
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
 					<SalesOverviewChart />
 					<CategoryDistributionChart />
-					<SalesChannelChart />
+					{/* <SalesChannelChart /> */}
+				</div>
+				<div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8'>
+					{/* <UserGrowthChart />
+					<UserActivityHeatmap /> */}
+					<UserDemographicsChart />
 				</div>
 			</main>
 		</div>
